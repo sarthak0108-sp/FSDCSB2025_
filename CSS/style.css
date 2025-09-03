@@ -15,6 +15,39 @@
     background-color: lightblue;
 }*/
 
-.footer{
+/*.footer{
     background-color: lightyellow;
+}*/
+/*div p{
+    background-color: lightsalmon;
+    color:white
+}*/
+div~p{
+    background-color: lightsalmon;
+    color:white
+}
+/*p:hover{
+    font-size: xx-large;
+    background-color: lightgreen;
+}*/
+p::after{
+    content: "ABES ENGINEERING COLLEGE";
+    background-color: mediumorchid;
+    color: white;
+}
+p::before{
+    content: "ABES ENGINEERING COLLEGE";
+    background-color: mediumorchid;
+    color: white;
+}
+p::selection{
+    background-color: lightcoral;
+}
+p:nth-child(2){
+    background-color: black;
+    color: white;
+}
+div p:nth-of-type(1){
+    background-color: blue;
+    font-size: xx-small;
 }
